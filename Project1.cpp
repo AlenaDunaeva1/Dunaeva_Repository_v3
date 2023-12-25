@@ -1,12 +1,13 @@
 ﻿#include <iostream>
-
+#include <math.h>
 int EnterNumber(int num) {
 
 	return 0;
 }
 
-void CalcArea(int num) {
-
+void CalcArea(int num, int n) {
+	float S =(n*n)*sqrt(3)/4;
+	std::cout << S << std::endl;
 }
 
 void CalcPerim(int num) {
