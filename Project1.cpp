@@ -9,8 +9,9 @@ void CalcArea(int num) {
 
 }
 
-void CalcPerim(int num) {
-
+void CalcPerim(int num, int n) {
+	int P = n * 3;
+	std::cout << n << std::endl;
 }
 
 int main()
