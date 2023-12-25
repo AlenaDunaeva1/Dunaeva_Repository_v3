@@ -1,7 +1,9 @@
 ﻿#include <iostream>
 
 int EnterNumber(int num) {
-
+	int n;
+	std::cout << "Enter n: " << std::endl;
+	std::cin >> n;
 	return 0;
 }
 
